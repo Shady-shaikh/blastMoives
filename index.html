@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blast Movies</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://code.jquery.com/ui/1.12.1/themes/eggplant/jquery-ui.css" rel="stylesheet"/>
+<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- preloader -->
+    <div class="preloader">
+      <div class="loader"></div>
+    </div>
+
+    <!-- head section -->
+    <header class="header">
+      <div class="container">
+        <div class="row justify-content-between align-items-center"></div>
+        <div class="brand-name">
+          <a href="index.html">Blast Movies</a>
+        </div>
+        <div class="nav-toggle">
+          <span></span>
+        </div>
+        <nav class="nav">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#categories">Categories</a></li>
+            <li><a href="#top">Top-Rated</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- home section -->
+
+    <section class="home-section" id="home">
+      <!-- shape -->
+      <div class="shape-01"></div>
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="home-content">
+            <h4>Download your favorite Movie in just a click</h4>
+            <h2>Welcome to Blast Movies</h2>
+          </div>
+        </div>
+        <!-- scroll down arrows -->
+        <a href="#about" class="scroll-down">
+          <img src="imgs/down-arrow.png" alt="">
+        </a>
+      </div>
+    </section>
+
+    <!-- about section -->
+
+    <section class="about-section" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-img">
+              <div class="img-box">
+                <div class="shape-02">
+                </div>
+                <img src="imgs/moviewIcon.png" alt="About Us" />
+              </div>
+          </div>
+          <div class="about-content">
+            <div class="row">
+              <div class="section-title">
+                <h1>About Us</h1>
+              </div>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
+              laboriosam, beatae omnis maxime quod ab voluptatibus culpa enim
+              hic sunt tempora illum dolores commodi fugit asperiores eveniet ut
+              aliquid eos quam iure quisquam velit illo vero voluptate. Ut,
+              veritatis iusto.
+            </p>
+            <div class="stats">
+              <div class="row">
+                <div class="stat-box">
+                  <h2>150K+</h2>
+                  <h5>Daily Downloads</h5>
+                </div>
+                <div class="stat-box">
+                  <h2>2500+</h2>
+                  <h5>Movies Available</h5>
+                </div>
+                <div class="stat-box">
+                  <h2>1M+</h2>
+                  <h5>Happy Clients</h5>
+                </div>
+              </div>
+            </div>
+            <!-- contact btn -->
+            <a href="#contact" class="btn btn-01">Contact Us</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Categories section -->
+
+    <section class="service-section" id="categories">
+      <div class="container">
+        <div class="row">
+          <div class="section-title">
+            <h1>Categories</h1>
+          </div>
+        </div>
+        <div class="row">
+          <!-- categories start -->
+          <div class="service-item">
+            <div class="service-item-inner">
+              <img src="https://i.pinimg.com/736x/17/b1/f1/17b1f1268a93c05f6d5251c5df303585.jpg" alt="" />
+              <div class="overlay">
+                <h3>Western</h3>
+              </div>
+            </div>
+          </div>
+          <div class="service-item">
+            <div class="service-item-inner">
+              <img src="https://m.media-amazon.com/images/M/MV5BNTA2YTI5YjUtZWI4Zi00NWQ5LWFiYmEtOTBmNTUyNDAwNjllXkEyXkFqcGdeQXVyNjIzNzM4NzA@._V1_.jpg" alt="" />
+              <div class="overlay">
+                <h3>Mystery</h3>
+              </div>
+            </div>
+          </div>
+          <div class="service-item">
+            <div class="service-item-inner">
+              <img src="https://i.pinimg.com/originals/cd/35/a2/cd35a2d1840bdaf5578111722b729a8d.jpg" alt="" />
+              <div class="overlay">
+                <h3>Drama</h3>
+              </div>
+            </div>
+          </div>
+          <div class="service-item">
+            <div class="service-item-inner">
+              <img src="https://imgix.ranker.com/user_node_img/111/2204782/original/2204782-photo-u1089078798?auto=format&q=60&fit=crop&fm=pjpg&dpr=2&w=375" alt="" />
+              <div class="overlay">
+                <h3>Fantasy</h3>
+              </div>
+            </div>
+          </div>
+          <div class="service-item">
+            <div class="service-item-inner">
+              <img src="https://www.filmsourcing.com/wp-content/uploads/2013/03/werethemillers-poster.jpg" alt="" />
+              <div class="overlay">
+                <h3>Comedy</h3>
+              </div>
+            </div>
+          </div>
+          <div class="service-item">
+            <div class="service-item-inner">
+              <img src="https://featuredanimation.com/wp-content/uploads/2022/05/Lightyear-movie-poster-2.jpg" alt="" />
+              <div class="overlay">
+                <h3>Animation</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- top-rated section -->
+
+    <section class="work-section" id="top">
+      <div class="container">
+        <div class="row">
+          <div class="section-title">
+            <h1>Top-Rated Movies</h1>
+          </div>
+        </div>
+        <div class="row">
+          <!-- top rated movies -->
+          <div class="work-item">
+            <div class="work-item-inner">
+              <img src="https://m.media-amazon.com/images/I/71gyLVWIfIL._AC_SY879_.jpg" data-large="https://m.media-amazon.com/images/I/71gyLVWIfIL._AC_SY879_.jpg" alt="" />
+              <div class="overlay">
+                <h4>Doctor Strange</h4>
+              </div>
+            </div>
+          </div>
+          <div class="work-item">
+            <div class="work-item-inner">
+              <img src="https://m.media-amazon.com/images/I/71Y+lhdaLrL.jpg" data-large="https://m.media-amazon.com/images/I/71Y+lhdaLrL.jpg" alt="" />
+              <div class="overlay">
+                <h4>Captain Marvel</h4>
+              </div>
+            </div>
+          </div>
+          <div class="work-item">
+            <div class="work-item-inner">
+              <img src="https://m.media-amazon.com/images/I/7177QIDoSmL._AC_SY741_.jpg" data-large="https://m.media-amazon.com/images/I/7177QIDoSmL._AC_SY741_.jpg" alt="" />
+              <div class="overlay">
+                <h4>Aquaman</h4>
+              </div>
+            </div>
+          </div>
+          <div class="work-item">
+            <div class="work-item-inner">
+              <img src="https://i.pinimg.com/originals/c7/02/df/c702dff01f1a7d18a15062d8ff93d66e.jpg" data-large="https://i.pinimg.com/originals/c7/02/df/c702dff01f1a7d18a15062d8ff93d66e.jpg" alt="" />
+              <div class="overlay">
+                <h4>X-Men</h4>
+              </div>
+            </div>
+          </div>
+          <div class="work-item">
+            <div class="work-item-inner">
+              <img src="https://m.media-amazon.com/images/I/71PUHIGp+-L._SY550_.jpg" data-large="https://m.media-amazon.com/images/I/71PUHIGp+-L._SY550_.jpg" alt="" />
+              <div class="overlay">
+                <h4>Guardians of the Galaxy</h4>
+              </div>
+            </div>
+          </div>
+          <div class="work-item">
+            <div class="work-item-inner">
+              <img src="https://m.media-amazon.com/images/I/71dwS9phhCL._AC_SY679_.jpg" data-large="https://m.media-amazon.com/images/I/71dwS9phhCL._AC_SY679_.jpg" alt="" />
+              <div class="overlay">
+                <h4>The Dark Knight</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact section -->
+
+    <section class="contact-section" id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-img">
+          <div class="img-box">
+            <div class="section-title">
+              <h1>Contact Us</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="contact-form">
+          <form class="form">
+            <div class="row">
+              <div class="left input-group">
+                <label for="">Name</label>
+                <input
+                  type="text"
+                  placeholder="Your Name Here"
+                  class="input-control"
+                />
+              </div>
+              <div class="right input-group">
+                <label for="">Email or Phone</label>
+                <input
+                  type="text"
+                  placeholder="Your Email or Phone Here"
+                  class="input-control"
+                />
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-group">
+                <label for="">Message</label>
+                <textarea
+                  class="input-control"
+                  placeholder="Your Message Here"
+                ></textarea>
+              </div>
+            </div>
+            <div class="from-btn">
+              <button class="btn btn-01" id="button">Send Message</button>
+            </div>
+            <div id="dialog">
+              Thankyou for contacting us. We will get back to you soon. Don't
+              forget to check your email
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="row">
+        <div class="contact-info">
+          <div class="row">
+            <div class="info-item">
+              <h5>Address</h5>
+              <p>Sec-XYZ, IND, 123</p>
+            </div>
+            <div class="info-item">
+              <h5>Phone</h5>
+              <p>91 000 000 00</p>
+            </div>
+            <div class="info-item">
+              <h5>Email</h5>
+              <p>blastmovies@movie.com</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="social-links">
+            <a href="#" title="facebook"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#" title="twitter"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#" title="linkedin"><i class="fa-brands fa-linkedin"></i></i></a>
+            <a href="#" title="instagram"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+
+    <p class="copyright">&copy; 2022 Blast Movies</p>
+
+    <!-- lightbox -->
+
+    <div class="lightbox">
+        <div class="img-box">
+            <div class="lightbox-close">&times;</div>
+            <img src="https://img.freepik.com/free-photo/gray-painted-background_53876-94041.jpg?w=2000" class="lightbox-img" alt="img1">
+            <div class="lightbox-caption">
+                <div class="lightbox-category">
+                </div>
+                <div class="lightbox-counter">
+                </div>
+            </div>
+            <div class="lightbox-controls">
+                <div class="prev">
+                    <i class="fa-solid fa-angle-left"></i>
+                </div>
+                <div class="next">
+                    <i class="fa-solid fa-angle-right"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
