@@ -1,30 +1,44 @@
-MovieMania
+# blastMoives
 
+A beautiful animated website for movies
 
-MovieMania is a dynamic and responsive movie website that provides information on various movies, including their categories, reviews, top rated movies, and much more.
+## Description
 
-Website URL
+blastMoives is a dynamic and responsive movie website that provides information on various movies, including their categories, reviews, top rated movies, and much more.
 
-Visit the live site: https://shady-shaikh.github.io/blastMoives
+## Getting Started
 
-Installation
+### Dependencies
 
-Clone the repository:
-git clone https://github.com/Shady-shaikh/blastMoives.git
+* Not required
 
-Navigate to the project directory:
-cd blastMoives
+### Installing
 
-Open index.html in your browser:
+* Clone the repository: git clone https://github.com/Shady-shaikh/blastMoives.git
+* Navigate to the project directory: cd blastMoives
+
+### Site Details
+
+* Url https://shady-shaikh.github.io/blastMoives/
+
+### Executing program
+
+* How to run the program
+* Open index.html in your browser:
 You can simply open the index.html file in your favorite web browser to view the website locally.
 
-Usage
-Explore different sections to find popular, upcoming, and top-rated movies.
-You can check the animations of diffrent sections.
+## Usage
+* Explore different sections to find popular, upcoming, and top-rated movies.
+* You can check the animations of diffrent sections.
 
-Contact
-If you have any questions or suggestions, feel free to reach out:
 
-GitHub: Shady-shaikh
+## Authors
 
-Email: usashaikh86@gmail.com
+Contributors names and contact info
+
+Abu Osama Shaikh  
+https://www.linkedin.com/in/usama-shaikh-81294a306/
+usashaikh86@gmail.com
+
+
+
