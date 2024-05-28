@@ -36,9 +36,9 @@ You can simply open the index.html file in your favorite web browser to view the
 
 Contributors names and contact info
 
-Abu Osama Shaikh  
-https://www.linkedin.com/in/usama-shaikh-81294a306/
-usashaikh86@gmail.com
+* Abu Osama Shaikh  
+* https://www.linkedin.com/in/usama-shaikh-81294a306/
+* usashaikh86@gmail.com
 
 
 
