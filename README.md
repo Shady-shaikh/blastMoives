@@ -7,8 +7,11 @@ Website URL
 Visit the live site: https://shady-shaikh.github.io/blastMoives
 
 Installation
+
 Clone the repository: git clone https://github.com/Shady-shaikh/blastMoives.git
+
 Navigate to the project directory: cd blastMoives
+
 Open index.html in your browser:
 You can simply open the index.html file in your favorite web browser to view the website locally.
 
