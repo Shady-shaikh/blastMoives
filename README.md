@@ -1,7 +1,7 @@
 MovieMania
 
 
-MovieMania is a dynamic and responsive movie website that provides information on various movies, including their ratings, reviews, trailers, and much more.
+MovieMania is a dynamic and responsive movie website that provides information on various movies, including their categories, reviews, top rated movies, and much more.
 
 Website URL
 
@@ -20,6 +20,7 @@ You can simply open the index.html file in your favorite web browser to view the
 
 Usage
 Explore different sections to find popular, upcoming, and top-rated movies.
+You can check the animations of diffrent sections.
 
 Contact
 If you have any questions or suggestions, feel free to reach out:
