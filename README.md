@@ -1,6 +1,6 @@
 # blastMoives
 
-A beautiful animated website for movies
+A beautiful animated website template for movies
 
 ## Description
 
